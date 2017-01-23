@@ -5,13 +5,13 @@
 ### http://blog.docker.com/2015/03/updates-available-to-popular-repos-update-your-images/
 # dockerfile/java renamed to java
 ### 
-FROM openjdk:7
-MAINTAINER Frank Wang "eternnoir@gmail.com"
+FROM openjdk:8
+MAINTAINER Frank Wang "gdyangyu@gmail.com"
 
 EXPOSE 8080
 
-ENV TOMCAT_VERSION 8.0.38
-ENV ACTIVITI_VERSION 5.21.0
+ENV TOMCAT_VERSION 8.5.11
+ENV ACTIVITI_VERSION 5.22.0
 ENV MYSQL_CONNECTOR_JAVA_VERSION 5.1.40
 
 # Tomcat
